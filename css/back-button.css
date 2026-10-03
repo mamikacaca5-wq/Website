@@ -1,0 +1,20 @@
+.back-button {
+    display: inline-flex;
+    min-height: 42px;
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+    margin: 22px 0 0;
+    padding: 10px 17px;
+    border: 1px solid #e8e3ee;
+    border-radius: 8px;
+    background: #f3eef9;
+    color: #713cae;
+    font: inherit;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background: #ece3f6;
+}
