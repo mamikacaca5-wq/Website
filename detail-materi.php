@@ -448,7 +448,7 @@ $dashboardUrl = 'view/dashboard.php';
                 </div>
 
                 <?php if ($isGuruPemilik): ?>
-                    <a class="detail-button" href="host-quiz.php?id=<?= (int) $quiz['id'] ?>">
+                    <a class="detail-button" href="edit-quiz.php?id=<?= (int) $quiz['id'] ?>">
                         Kelola quiz
                     </a>
                 <?php elseif ($jumlahSoal > 0): ?>
